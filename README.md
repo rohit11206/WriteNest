@@ -20,16 +20,21 @@ Users can sign up, log in, and create, edit, or delete their own blog posts — 
 🗂️ Project Structure
 WriteNest-main/
 │
-├── backend/          # Express.js + MongoDB server
-│   ├── routes/       # Blog & user routes
-│   ├── middleware/   # Auth middleware
-│   ├── db.js         # Database connection
-│   └── ...           
+├── backend/ # Express.js + MongoDB server
+│ ├── controllers/ # Auth & blog controllers
+│ ├── middleware/ # JWT auth middleware
+│ ├── models/ # Mongoose models
+│ ├── routes/ # API routes
+│ ├── db.js # Database connection
+│ ├── index.js # Server entry
+│ ├── .env.example # Backend env example
+│ └── package.json
 │
-├── frontend/         # React app (Vite)
-│   ├── src/pages/    # Home, Login, Signup, Blog pages
-│   ├── src/lib/      # API helper
-│   └── ...
+├── frontend/ # React app (Vite)
+│ ├── src/pages/ # Home, Login, Signup, Blog pages
+│ ├── src/lib/ # API helper
+│ ├── .env.example # Frontend env example
+│ └── package.json
 │
 ├── .gitignore
 ├── .gitattributes
