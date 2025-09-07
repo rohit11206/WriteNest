@@ -1,4 +1,4 @@
-✍️ WriteNest
+```✍️ WriteNest
 
 A modern blogging platform built with React (frontend) and Node.js + Express + MongoDB (backend).
 Users can sign up, log in, and create, edit, or delete their own blog posts — while only being able to view other users’ posts. 🚀
@@ -67,7 +67,7 @@ WriteNest-main/
 
 🤝 Contributing
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.```
 
  
  
